@@ -12,7 +12,7 @@ A marathon runner was on their daily run when they encountered a Python. Help th
 ## Exceptions and Constraints:
 
 - Recursion must be implemented
-- Existing code is not allowed to be modified, you are only allowed to add onto the `add_distances()` function
+- Existing code is not allowed to be modified, you are only allowed to add onto the `add_distances()` and `find_shortest()` functions
 
 ## Expected Output:
 ```
