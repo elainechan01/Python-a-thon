@@ -12,6 +12,8 @@ def add_distances(path, total):
 
 # <----- TO DO ----->
 # How can you add to this function to print the shortest distance out of four paths?
+# Expected Output:
+# Path 4
 def find_shortest(path1, path2, path3, path4):
     p1 = add_distances(path1, 0)
     p2 = add_distances(path2, 0)
