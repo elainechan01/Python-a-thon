@@ -3,22 +3,21 @@
 
 # <----- TO DO----->
 # How can you add to this function to implement the concept of recursion, such that the function will keep calling itself until all the distances in the list has been added to the total sum?
+# HINT: the function will pop the last element in the list and add it to total
 def add_distances(path, total):
     if not path:
-        return total
-    else:
-        distance = path.pop()
-        total += distance 
+        pass
+    distance = path.pop()
+    total += distance 
 
 # <----- TO DO ----->
 # How can you add to this function to print the shortest distance out of four paths?
-# Expected Output:
-# Path 4
 def find_shortest(path1, path2, path3, path4):
     p1 = add_distances(path1, 0)
     p2 = add_distances(path2, 0)
     p3 = add_distances(path3, 0)
     p4 = add_distances(path4, 0)
+    paths = [p1, p2, p3, p4]
 
 
 def main():
